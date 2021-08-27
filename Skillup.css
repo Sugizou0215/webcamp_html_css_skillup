@@ -1,0 +1,42 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  width: 1024px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 70px;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: inline-block;
+  list-style: none;
+  height: 70px;
+  margin: 2px auto 0 0;
+  padding-bottom: 20px;
+}
+
+.nav-item {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+}
